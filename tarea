@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x;
+    char nombre[25];
+    cout << "Ingrese su edad, por favor: ";
+    cin >> x;
+
+    if (x < 7 || x > 12) {
+        cout << "Edad inválida. Por favor, ingrese su edad nuevamente.";
+    } else if (x == 7) {
+        cout << "Estás en primero de primaria.";
+    } else if (x == 8) {
+        cout << "Estás en segundo de primaria.";
+    } else if (x == 9) {
+        cout << "Estás en tercero de primaria.";
+    } else if (x == 10) {
+        cout << "Estás en cuarto de primaria.";
+    } else if (x == 11) {
+        cout << "Estás en quinto de primaria.";
+    } else if (x == 12) {
+        cout << "Estás en sexto de primaria.";
+    }
+
+    return 0; // Se devuelve un valor entero al finalizar el programa.
+}
